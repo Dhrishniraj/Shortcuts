@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shortcuts</title>
+        <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="shortcut icon" href="shortcut.png">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <h1>Shortcuts</h1><br>
+        <h3>How to use:</h3><br>
+        <p>Click the 'Create Shortcut' button. Then you will be navigated to a page where you have to create a code with an URL. When you will finish doing that, you will be navigated to this page. After that, when you write the code in the input box, an URL will be opened with the respected code.</p><br><br>
+        <button class="btn btn-success" id="create" onclick="n()"><span class="glyphicon glyphicon-plus"></span>Create Shortcut</button><br>
+        <div id="navigate">
+            <input id="code" placeholder="Code" class="form-control"><br>
+            <button id="navigate_to" onclick="linkopen()" class="btn btn-primary">Open</button>
+            <a href="" target="_blank" id="a"></a>
+        </div>
+    </body>
+</html>
